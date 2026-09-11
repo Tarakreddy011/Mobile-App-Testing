@@ -1,0 +1,34 @@
+by using Appium and server eclipse Appium inspector
+
+Automate and test the functionality by using testNG for any apk after download from apkpure.com or any
+
+in .apk <-- extension
+
+--------------------------------------------------------------------------------------------------
+
+set "PATH=C:\Users\hp\AppData\Local\Android\Sdk\platform-tools;%PATH%"
+adb --version
+adb devices
+
+--------------------------------------------------------------------------------------------------
+
+set "PATH=%APPDATA%\npm;%PATH%"
+appium --version
+appium driver list --installed
+
+Appium
+
+---------------------------------------------------------------------------------------------------
+
+eclips codeing and also json part use ai
+
+---------------------------------------------------------------------------------------------------
+
+adb install "C:\Users\hp\Downloads\Student+Exam+Results_2.0.3_APKPure.apk"  <--- to install apk in emulator
+
+adb shell pm list packages | findstr /i exam
+
+adb shell am start -n com.ega.examresult/.MainActivity
+
+adb shell dumpsys window | findstr mCurrentFocus
+-----------------------------------------------------------------------------------------------------

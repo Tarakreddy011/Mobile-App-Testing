@@ -1,0 +1,56 @@
+{
+  "conversationId": "8129523c-2ca0-40e8-acaa-ea4be61f7a54",
+  "title": "fix the errors and also make sure this project is ...",
+  "requesterUsername": "Tarakreddy011",
+  "responderUsername": "GitHub Copilot",
+  "turns": [
+    {
+      "message": {
+        "text": "fix the errors and also make sure this project is used for andriod app and moblie app testing also include testng "
+      },
+      "currentDocument": {
+        "uri": "/tictacktoe/src/p1/CalculatorTest.java"
+      },
+      "references": [],
+      "ignoredSkills": [],
+      "userLanguage": "en",
+      "source": "panel",
+      "model": "Auto",
+      "chatMode": "Agent",
+      "customChatModeId": "Agent",
+      "needToolCallConfirmation": true,
+      "turnId": "814dc8e6-4a73-4474-b7ae-60e1336c896b",
+      "role": "user",
+      "timestamp": "2026-09-01T09:07:24.519430800Z"
+    },
+    {
+      "reply": {
+        "annotations": [],
+        "references": [],
+        "hideText": false,
+        "notifications": [],
+        "followups": [],
+        "errorMessages": [
+          {
+            "error": {
+              "message": "No model configuration found",
+              "code": -1
+            }
+          }
+        ],
+        "editAgentRounds": [],
+        "panelMessages": [],
+        "steps": [],
+        "agentMessages": [],
+        "data": {},
+        "modelName": "auto",
+        "billingMultiplier": 0.0
+      },
+      "turnId": "814dc8e6-4a73-4474-b7ae-60e1336c896b",
+      "role": "copilot",
+      "timestamp": "2026-09-01T09:07:26.232466400Z"
+    }
+  ],
+  "creationDate": "2026-09-01T09:07:24.507592700Z",
+  "lastMessageDate": "2026-09-01T09:07:26.728856800Z"
+}

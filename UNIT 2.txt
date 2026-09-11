@@ -1,0 +1,4 @@
+By Using Appium inspector and Appium eclipse represent handling popups coming int the apk's
+
+ANS
+---------------------------------------------------------------------------------------------------------
